@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.container .box {
+    width: 100px;
+    height: 43px;
+    border: 2px solid;
+    border-radius: 30px;
+    margin: 40px 110px;
+    cursor: pointer;
+}
+
+.container .box div {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn_on {
+    transform: translateX(57px);
+}
+

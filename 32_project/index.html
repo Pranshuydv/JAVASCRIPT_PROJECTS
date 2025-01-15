@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+
+    <!-- using external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- link fontawesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-main" id="nav-height">
+            <div class="nav-header">
+                <h1>Responsive Navbar</h1>
+                <i class="fa fa-bars" aria-hidden="true" onclick="open_btn()"></i>
+                <i class="fa fa-x" aria-hidden="true" id="font_x" onclick="close_btn()"></i>
+            </div>
+            <ul class="menu" id="menu_list">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- using external Javascript  -->
+    <script src="script.js"></script>
+</body>
+
+</html>

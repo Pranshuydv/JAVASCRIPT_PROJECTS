@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 350px;
+    border: 2px solid;
+    font-family: cursive;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container textarea {
+    width: 600px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+
+    
+}
+
+
+.container div {
+    padding: 10px 90px;
+}
+
+.container div .left {
+    float: left;
+}
+
+.container div .right {
+    float: right;
+}

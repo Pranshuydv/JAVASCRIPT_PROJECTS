@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: red;
+
+}
+
+.container-fluid .left {
+    width: 500px;
+    height: 800px;
+    background-color: grey;
+    float: left;
+    padding: 10px;
+    transform: translate(-100%);
+    transition-timing-function: linear;
+    transition: 0.6s;
+}
+
+.container-fluid .left h1 {
+    float: left;
+}
+
+.container-fluid .left h2 {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.container-fluid .left ul {
+    padding-top: 40px;
+}
+
+.container-fluid .left ul li {
+    list-style: none;
+    padding: 40px 0;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+
+.container-fluid .left span {
+    padding: 30px;
+    margin-top: 150px;
+    cursor: pointer;
+    font-size: 30px;
+    display: inline-block;
+
+}
+
+.container-fluid .right {
+    float: right;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 10px;
+
+}

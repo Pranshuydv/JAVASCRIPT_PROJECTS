@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #719950;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container p {
+    font-size: 160px;
+    position: absolute;
+    top: 20px;
+    left: 28%;
+   
+}
+
+.container button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 220px 80px;
+    background-color: lightskyblue;
+}

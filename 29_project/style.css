@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 700px;
+    height: 200px;
+    background-color: lightseagreen;
+    box-shadow: 20px 20px 15px;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 18%;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.container .main {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.container .main li {
+    list-style: none;
+    font-size: 80px;
+}
+
+.container .main li p{
+    font-size: 30px;
+    text-align: center;
+}

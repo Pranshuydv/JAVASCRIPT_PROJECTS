@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 800px;
+    height: 600px;
+}
+
+button {
+    display: inline-block;
+    margin-left: 45%;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 550px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.container input{
+    width: 270px;
+    height: 80px;
+    margin: 50px 70px;
+    padding-left: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0px 100px;
+    cursor: pointer;
+}

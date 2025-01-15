@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA - COLOUR GENERATOR</title>
+
+    <!-- Using External CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="result"> </div>
+
+    <label for="red">Red:</label>
+    <input type="range" id="red" oninput="change_bgc()" max="255" min="0"> <br>
+
+    <label for="green">green:</label>
+    <input type="range" id="green" oninput="change_bgc()" max="255" min="0"> <br>
+
+    <label for="blue">blue:</label>
+    <input type="range" id="blue" oninput="change_bgc()" max="255" min="0"> <br>
+
+    <label for="alpha">alpha:</label>
+    <input type="range" id="alpha" oninput="change_bgc()" max="255" min="0"> <br>
+
+
+
+    <!-- Using External Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

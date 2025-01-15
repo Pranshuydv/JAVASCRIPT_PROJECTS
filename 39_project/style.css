@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+}
+
+.filter-buttons {
+    margin: 20px 0;
+}
+
+.filter-btn {
+    background-color: #ffffff;
+    border: 1px solid #002060;
+    color: #002060;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #002060;
+    color: white;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+
+    img{
+        width: 400px;
+        height: 300px;
+    }
+}
