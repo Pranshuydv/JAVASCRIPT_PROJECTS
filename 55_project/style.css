@@ -1,0 +1,83 @@
+#toggle {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    background: #DE2817;
+    width: 1em;
+    height: 0.5em;
+    border-radius: 0.4em;
+    margin-left: 0.05em;
+    position: relative;
+    cursor: pointer;
+}
+
+#switch {
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background: #EA4335;
+    box-shadow: 5px 0px 28px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 0.2s ease-in;
+}
+
+.container {
+    position: absolute;
+    width: 750px;
+    height: 250px;
+    /* background-color: skyblue; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    font-weight: 600;
+    color: #EA4335;
+    transition: color 0.2s ease-in;
+}
+
+.upperg {
+    font-size: 1.1em;
+    float: left;
+}
+
+.g,
+.l {
+    margin-left: -40px;
+}
+
+.e {
+    transform: rotate(345deg);
+    display: inline-block;
+    margin-left: -40px;
+}
+
+body {
+    font-family: "product sans", sans-serif;
+    font-size: 13vw;
+}
+
+#toggle:checked~label #switch {
+    transform: translateX(0.5em);
+    background: #fBBC05;
+    box-shadow: -5px 0px 28px -9px rgba(0, 0, 0, 0.75);
+}
+
+#toggle:checked~label {
+    background: #fBBC05;
+}
+
+#toggle:checked~.blue {
+    color: #4285F4;
+}
+
+#toggle:checked~.green {
+    color: #34A853;
+}
+
+#toggle:checked~.red {
+    color: #EA4335;
+}
